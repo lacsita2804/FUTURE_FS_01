@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacsita | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Lacsita</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Lacsita</span></h1>
+        <p>Full Stack Web Developer Intern</p>
+
+        <div class="social-icons">
+            <a href="mailto:lacsita280@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/lacsita-k-a-395a68337" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-img">
+        <img src="profile.jpg" alt="Lacsita">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section center">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student with a strong passion for web development and modern UI/UX design.
+        I enjoy building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+        I have hands-on experience working on real-world projects and developing interactive web applications.
+        I am eager to learn new technologies, enhance my technical skills, and grow as a full-stack developer.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section center">
+    <h2>Skills</h2>
+    <div class="skills-box">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section center">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Mini Commerce Website</h3>
+        <p>Developed a responsive mini e-commerce website with clean UI and product layout.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Website Rebranding</h3>
+        <p>Redesigned an existing website using modern UI/UX principles and responsive design.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Designed and built a personal portfolio showcasing skills, projects, and contact form.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section center">
+    <h2>Contact Me</h2>
+
+    <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <p id="success-msg"></p>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Lacsita. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

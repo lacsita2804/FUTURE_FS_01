@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #0b0f1a;
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #9b7cff;
+}
+
+nav a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #9b7cff;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text span {
+    color: #9b7cff;
+}
+
+.hero-text p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 34px;
+    margin-right: 20px;
+    color: #9b7cff;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3);
+    color: #ffffff;
+}
+
+.hero-img img {
+    width: 300px;
+    border-radius: 50%;
+    border: 4px solid #9b7cff;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px;
+}
+
+.center {
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #9b7cff;
+}
+
+/* SKILLS */
+.skills-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 12px 24px;
+    background: #1a1f2e;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.skill:hover {
+    background: linear-gradient(45deg, #9b7cff, #5f9cff);
+    color: black;
+    box-shadow: 0 0 15px #9b7cff;
+}
+
+/* PROJECTS */
+.project-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1a1f2e;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    background: #1a1f2e;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #9b7cff;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bba6ff;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    font-size: 14px;
+    border-top: 1px solid #1a1f2e;
+}
